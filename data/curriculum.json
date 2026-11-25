@@ -1,0 +1,107 @@
+{
+  "grade": 1,
+  "curriculum_version": "1.0.0",
+  "learning_flow": ["listen", "speak", "write", "combine"],
+  "mouth_guides": {
+    "mouth_l_tip_ridge": {
+      "title": "Âm đầu L — Đầu lưỡi chạm lợi trên",
+      "instruction": "Nâng đầu lưỡi chạm nhẹ vào phần lợi ngay sau răng cửa trên, để luồng hơi thoát hai bên cạnh lưỡi, rung thanh quản rõ.",
+      "image_key": "mouth_l.png"
+    },
+    "mouth_n_nasal": {
+      "title": "Âm đầu N — Lưỡi chạm lợi & hơi lên mũi",
+      "instruction": "Đầu lưỡi áp sát lợi trên chặn luồng hơi miệng, hạ màn hầu để hơi vang nhẹ qua mũi.",
+      "image_key": "mouth_n.png"
+    },
+    "mouth_tone_hoi": {
+      "title": "Thanh hỏi — Giọng hạ thấp rồi hơi nâng nhẹ",
+      "instruction": "Đọc giọng trầm hơn mức bình thường, hạ thấp rồi nâng nhẹ đều, không ngắt giọng đột ngột hay bật hơi gằn.",
+      "image_key": "tone_hoi.png"
+    },
+    "mouth_tone_nga": {
+      "title": "Thanh ngã — Giọng trầm, ngắt nhẹ rồi lướt lên",
+      "instruction": "Hạ giọng, ngắt hơi nhẹ ở giữa rồi lướt cao lên rõ ràng, phân biệt dứt khoát với thanh hỏi.",
+      "image_key": "tone_nga.png"
+    },
+    "mouth_final_stop": {
+      "title": "Âm cuối (-p, -t, -c, -ch) — Khép môi hoặc chặn lưỡi cuối âm",
+      "instruction": "Không dừng ở nguyên âm: khép chặt hai môi (với -p) hoặc giữ đầu lưỡi/gốc lưỡi chạm sát vị trí kết thúc (-t, -c, -ch) để khép gọn âm tiết.",
+      "image_key": "final_stop.png"
+    },
+    "mouth_final_nasal": {
+      "title": "Âm cuối (-m, -n, -ng) — Giữ âm vang mũi ở cuối vần",
+      "instruction": "Kéo dài nhẹ phần vang ở cuối từ trước khi khép môi (-m), chạm lợi (-n) hoặc nâng gốc lưỡi (-ng), không nuốt mất đuôi từ.",
+      "image_key": "final_nasal.png"
+    }
+  },
+  "lessons": [
+    {
+      "lesson_id": "tv1_u01_l_ba",
+      "unit": 1,
+      "title": "Âm l, vần a và tiếng ba / lá",
+      "target_phoneme": "l",
+      "target_rime": "a",
+      "spelling_guide": "lờ - a - la - hỏi - lả | bờ - a - ba",
+      "sample_syllables": ["la", "lả", "lã", "ba", "bà"],
+      "combine_words": ["lá", "lả", "ba", "bà", "la cà"],
+      "common_errors": ["l_n_confusion", "hoi_nga_confusion", "final_consonant_drop"],
+      "mouth_guide_ids": ["mouth_l_tip_ridge", "mouth_tone_hoi", "mouth_tone_nga"],
+      "writing_module": {
+        "writing_lesson_id": "write_tv1_l",
+        "letters_to_trace": ["l", "a", "b"],
+        "combine_word_to_write": "lá"
+      }
+    },
+    {
+      "lesson_id": "tv1_u02_n_na",
+      "unit": 2,
+      "title": "Âm n, thanh ngã và tiếng nã / nả",
+      "target_phoneme": "n",
+      "target_rime": "a",
+      "spelling_guide": "nờ - a - na - ngã - nã | nờ - a - na - hỏi - nả",
+      "sample_syllables": ["na", "nả", "nã", "nơ", "nở"],
+      "combine_words": ["nả", "nã", "no", "nở", "nơ"],
+      "common_errors": ["l_n_confusion", "hoi_nga_confusion"],
+      "mouth_guide_ids": ["mouth_n_nasal", "mouth_tone_nga", "mouth_tone_hoi"],
+      "writing_module": {
+        "writing_lesson_id": "write_tv1_n",
+        "letters_to_trace": ["n", "a"],
+        "combine_word_to_write": "nã"
+      }
+    },
+    {
+      "lesson_id": "tv1_u03_final_stop_at",
+      "unit": 3,
+      "title": "Vần at và âm cuối -t",
+      "target_phoneme": "t",
+      "target_rime": "at",
+      "spelling_guide": "a - tờ - át | hát",
+      "sample_syllables": ["át", "hát", "mát", "bát"],
+      "combine_words": ["hát", "mát", "bát", "cát"],
+      "common_errors": ["final_consonant_drop"],
+      "mouth_guide_ids": ["mouth_final_stop"],
+      "writing_module": {
+        "writing_lesson_id": "write_tv1_at",
+        "letters_to_trace": ["a", "t"],
+        "combine_word_to_write": "hát"
+      }
+    },
+    {
+      "lesson_id": "tv1_u04_final_nasal_ang",
+      "unit": 4,
+      "title": "Vần ang và âm cuối -ng",
+      "target_phoneme": "ng",
+      "target_rime": "ang",
+      "spelling_guide": "a - ngờ - ang | xanh",
+      "sample_syllables": ["ang", "xanh", "chành", "bảng"],
+      "combine_words": ["xanh", "bảng", "cành", "mành"],
+      "common_errors": ["final_consonant_drop", "hoi_nga_confusion"],
+      "mouth_guide_ids": ["mouth_final_nasal", "mouth_tone_hoi"],
+      "writing_module": {
+        "writing_lesson_id": "write_tv1_ang",
+        "letters_to_trace": ["a", "n", "g"],
+        "combine_word_to_write": "xanh"
+      }
+    }
+  ]
+}

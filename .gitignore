@@ -1,0 +1,9 @@
+@"
+phowhisper-child-5-7-final/
+*.safetensors
+*.bin
+*.pt
+*.pth
+__pycache__/
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
